@@ -77,8 +77,11 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((responses) => {
+    console.log("recieved");
+  });
+}
 
 // function call to initialize program
 init();
-console.log(questions);
