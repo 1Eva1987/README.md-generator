@@ -84,7 +84,7 @@ function init() {
   inquirer.prompt(questions).then((responses) => {
     console.log(responses);
     const answers = generateMarkdown(responses);
-    writeToFile("readme.md", answers, (err) =>
+    writeToFile("README.md", answers, (err) =>
       err ? console.log(err) : console.log("made it")
     );
   });

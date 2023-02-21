@@ -1,4 +1,4 @@
-// Functions to get luicense badge
+// Functions to get license badge
 function generateLicense(license) {
   if (license === "Apache 2.0") {
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
